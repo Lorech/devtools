@@ -10,6 +10,6 @@ return {
     "3rd/image.nvim",
   },
   config = function()
-    vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal left<CR>") -- Ctrl + N to view file directory.
+    vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle<CR>") -- Ctrl + N to toggle file directory.
   end
 }
