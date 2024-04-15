@@ -4,7 +4,12 @@ return {
     local null_ls = require("null-ls")
     null_ls.setup({
       sources = {
+        -- Lua
         null_ls.builtins.formatting.stylua,
+        -- Go
+        null_ls.builtins.diagnostics.golangci_lint,
+        null_ls.builtins.formatting.gofumpt,
+        null_ls.builtins.formatting.goimports,
       },
     })
 
