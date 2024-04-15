@@ -20,11 +20,16 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
       local lspconfig = require("lspconfig")
 
       -- Language configurations.
-      lspconfig.lua_ls.setup({})
-      lspconfig.gopls.setup({})
+      lspconfig.lua_ls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.gopls.setup({
+        capabilities = capabilities
+      })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})                 -- Open hovering documentation.
       vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})           -- Open definition.
