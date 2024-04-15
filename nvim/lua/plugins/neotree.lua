@@ -1,7 +1,7 @@
 -- Configure Neotree for directory listings.
 -- https://github.com/nvim-neo-tree/neo-tree.nvim
 return {
- "nvim-neo-tree/neo-tree.nvim",
+  "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
@@ -11,5 +11,5 @@ return {
   },
   config = function()
     vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle<CR>") -- Ctrl + N to toggle file directory.
-  end
+  end,
 }

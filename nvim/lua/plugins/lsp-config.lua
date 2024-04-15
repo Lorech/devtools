@@ -7,15 +7,15 @@ return {
     "williamboman/mason.nvim",
     config = function()
       require("mason").setup()
-    end
+    end,
   },
   {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "gopls", "lua_ls" }
+        ensure_installed = { "gopls", "lua_ls" },
       })
-    end
+    end,
   },
   {
     "neovim/nvim-lspconfig",
@@ -26,9 +26,9 @@ return {
       lspconfig.lua_ls.setup({})
       lspconfig.gopls.setup({})
 
-      vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- Open hovering documentation.
-      vim.keymap.set("n", "gd", vim.lsp.buf.definition, {}) -- Open definition.
-      vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {}) -- Open code actions.
-    end
+      vim.keymap.set("n", "K", vim.lsp.buf.hover, {})                 -- Open hovering documentation.
+      vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})           -- Open definition.
+      vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {})  -- Open code actions.
+    end,
   },
 }
