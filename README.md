@@ -42,6 +42,14 @@ developer tools, I am still getting into the whole Neovim world.
 
 Configuration for this is found in the `nvim` directory. To install, copy the directory to `~/config`
 
+### [Zed](https://zed.dev/)
+
+A light-weight text editor (even lighter than VS Code), built for minimalism, collaboration, and, most importantly, performance.
+
+I am currently experimenting with it, mostly as a bit of an easier jump into the Vim world - I have it configured with the Catppuccin theme, just like my Neovim setup, and opting to use Vim mode in the editor, rather than the default VS Code mode.
+
+Configuration for this is found in the `zed` directory. To install, copy the directory to `~/.config`.
+
 ## Fonts
 
 ### [Cousine Nerd Font Mono](https://www.nerdfonts.com/)
