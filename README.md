@@ -40,7 +40,7 @@ An in-terminal text editor for improved productivity (working on it), and extens
 Configured with the [Catppuccin theme for Neovim](https://github.com/catppuccin/nvim) and a whole bunch of
 developer tools, I am still getting into the whole Neovim world.
 
-Configuration for this is found in the `nvim` directory. To install, copy the directory to `~/config`
+Configuration for this is found in the `nvim` directory. To install, copy the directory to `~/.config`
 
 ### [Zed](https://zed.dev/)
 
