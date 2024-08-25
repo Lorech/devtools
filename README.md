@@ -55,3 +55,12 @@ Configuration for this is found in the `zed` directory. To install, copy the dir
 ### [Cousine Nerd Font Mono](https://www.nerdfonts.com/)
 
 This is the primary font I'm using in all aforementioned environments. As it's a nerd font, it comes with icons.
+
+## Misc.
+
+### [AeroSpace](https://github.com/nikitabobko/AeroSpace)
+
+AeroSpace is a tiling window manager for macOS. Due to frequently working on projects that require multiple windows open at once, I required optimization for working with the many applications at once.
+
+As of writing, I am still trialing it to find my optimal workflow, but the goal is to allow full keyboard managament of windows for easier switching between contexts.
+
