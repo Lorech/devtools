@@ -31,6 +31,14 @@ Plugins:
 
 Pre-made configuration for this will be added soon.
 
+### [Tmux](https://github.com/tmux/tmux)
+
+A terminal multiplexer to support multiple sessions and terminals within the same terminal app window.
+
+I've added additional configuration to persist my Tmux sessions across system restarts, as I frequently jump around projects, so keeping the sessions alive speeds up the project switching.
+
+Configuration should be copied to `~/.config/tmux`, reloading the session (`Ctrl-b r` when doing so for the first time), and then its packages should be installed (`Ctrl-I`).
+
 ## Text Editors
 
 ### [Neovim](https://neovim.io/)
