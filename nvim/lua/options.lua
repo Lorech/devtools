@@ -6,3 +6,6 @@ vim.cmd("set shiftwidth=2")
 
 -- Map the leader button to spacebar.
 vim.g.mapleader = " "
+
+-- Enable relative line numbers.
+vim.wo.relativenumber = true
