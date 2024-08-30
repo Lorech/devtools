@@ -1,3 +1,6 @@
+-- Enable true color mode.
+vim.o.termguicolors = true
+
 -- Set tabs to be 2 spaces wide.
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
@@ -9,3 +12,4 @@ vim.g.mapleader = " "
 
 -- Enable relative line numbers.
 vim.wo.relativenumber = true
+

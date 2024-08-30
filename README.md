@@ -4,14 +4,15 @@ My personal stack and configurations for various development (and adjacent) tool
 
 ## Terminal
 
-### [iTerm2](https://iterm2.com/)
+### [Alacritty](https://github.com/alacritty/alacritty)
 
-An improved and more powerful replacement for the built-in Terminal app on macOS.
+An improved terminal app with cross-platform support for macOS, Linux, and Windows.
 
-Styled using the [Catppuccin theme for iTerm](https://github.com/catppuccin/iterm).
+My custom configuration cleans up the UI a little bit, making it easier on the eye, as well as giving it support for extended colors and nerd fonts.
 
-Configuration for this is found in the `iterm2` directory. To install, simply import
-the relevant file into the relevant section of the settings.
+Styled using the [Catppuccin theme for Alacritty](https://github.com/catppuccin/alacritty).
+
+Configuration should be copied to `~/.config/alacritty`.
 
 ### [Oh My Zsh!](https://ohmyz.sh/)
 
@@ -35,7 +36,7 @@ Pre-made configuration for this will be added soon.
 
 A terminal multiplexer to support multiple sessions and terminals within the same terminal app window.
 
-I've added additional configuration to persist my Tmux sessions across system restarts, as I frequently jump around projects, so keeping the sessions alive speeds up the project switching.
+My custom configuration adds support for persisting sessions, making it easier to jump across multiple projects while not losing the relevant terminal windows for the project.
 
 Configuration should be copied to `~/.config/tmux`, reloading the session (`Ctrl-b r` when doing so for the first time), and then its packages should be installed (`Ctrl-I`).
 
