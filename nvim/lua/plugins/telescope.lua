@@ -12,6 +12,13 @@ return {
       local builtin = require("telescope.builtin")
       vim.keymap.set("n", "<leader>ff", builtin.find_files, {}) --  Space + F + F to find files.
       vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})  --  Space + F + G to grep files.
+      vim.keymap.set("n", "<leader>fb", function()              --  Space + f + b to find buffers.
+        builtin.buffers({
+          sort_mru = true,
+          ignore_current_buffer = true
+        }) end,
+        {}
+      )
     end,
   },
   {
