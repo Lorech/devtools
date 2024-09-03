@@ -1,5 +1,5 @@
--- Set the global vim options.
--- These are imported from the *.lua file with the same name.
+-- Enable my custom Vim options and keybinds.
+require("keymap")
 require("options")
 
 -- Ensure lazy.nvim package manager is installed.
