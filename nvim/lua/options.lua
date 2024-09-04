@@ -5,7 +5,7 @@ vim.opt.termguicolors = true
 vim.opt.expandtab = true
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
-vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
 
 -- Enable line numbers.
 vim.opt.nu = true
