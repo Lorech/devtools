@@ -20,3 +20,10 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Configure lazy.nvim plugins.
 require("lazy").setup("plugins")
+
+-- Enable a custom color scheme.
+-- These need to be configured here instead of options.lua to ensure plugins are loaded.
+-- vim.cmd.colorscheme("catppuccin-latte")
+-- vim.cmd.colorscheme("catppuccin-frappe")
+-- vim.cmd.colorscheme("catppuccin-macchiato")
+vim.cmd.colorscheme("catppuccin-mocha")
