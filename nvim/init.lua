@@ -1,4 +1,5 @@
--- Enable my custom Vim options and keybinds.
+-- Set the global vim options.
+-- These are imported from the *.lua file with the same name.
 require("keymap")
 require("options")
 
@@ -18,5 +19,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Configure lazy.nvim plugins.
--- All the plugins are exported from "./plugins/".
 require("lazy").setup("plugins")
