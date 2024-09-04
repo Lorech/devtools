@@ -27,5 +27,6 @@ return {
 		})
 
 		vim.keymap.set("n", "<C-n>", ":Neotree filesystem toggle<CR>") -- Ctrl + N to toggle file directory.
+		vim.keymap.set("n", "<leader>fr", ":Neotree reveal<cr>") -- Space + f + r to reveal the current file.
 	end,
 }
