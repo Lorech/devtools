@@ -1,5 +1,6 @@
 import = [
-  "~/.config/alacritty/catppuccin-mocha.toml",
+  # "~/.config/alacritty/catppuccin-mocha.toml",
+  "~/.config/alacritty/rose-pine-moon.toml",
 ]
 
 [env]
@@ -11,5 +12,5 @@ padding = { x = 10, y = 10 }
 dynamic_title = false
 
 [font]
-normal = { family = "Cousine Nerd Font", style = "Regular" }
+normal = { family = "Cousine Nerd Font Mono", style = "Regular" }
 
