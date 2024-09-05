@@ -16,3 +16,6 @@ vim.opt.colorcolumn = "80,120"
 
 -- Ensure minimum amount of lines while scrolling.
 vim.opt.scrolloff = 8
+
+-- Consider kebab-case strings as words.
+vim.opt.iskeyword:append("-")
