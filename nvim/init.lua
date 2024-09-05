@@ -19,7 +19,13 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Configure lazy.nvim plugins.
-require("lazy").setup("plugins")
+require("lazy").setup({
+	spec = {
+		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
+		{ import = "lazyvim.plugins.extras.lsp.none-ls" },
+		{ import = "plugins" },
+	},
+})
 
 -- Enable a custom color scheme.
 -- These need to be configured here instead of options.lua to ensure plugins are loaded.
