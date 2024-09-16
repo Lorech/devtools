@@ -33,6 +33,7 @@ return {
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {}) -- Open hovering documentation.
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {}) -- Open definition.
+			vim.keymap.set("n", "gr", vim.lsp.buf.references, {}) -- Open references/usages.
 			vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, {}) -- Open code actions.
 		end,
 	},
