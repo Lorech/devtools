@@ -27,6 +27,10 @@ require("lazy").setup({
 	},
 })
 
+-- Prevent LazyVim treating subdirectories as CWD.
+-- Set this here, as options.lua gets loaded before LazyVim, so it doesn't override it's functionality.
+vim.g.root_spec = { "cwd" }
+
 -- Enable a custom color scheme.
 -- These need to be configured here instead of options.lua to ensure plugins are loaded.
 -- vim.cmd.colorscheme("catppuccin-latte")
