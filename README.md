@@ -2,6 +2,10 @@
 
 My personal stack and configurations for various development (and adjacent) tools I use.
 
+[!NOTE]
+
+This repository is no longer maintained, and has been replaced with [Lorech/dotfiles](https://github.com/Lorech/dotfiles)
+
 ## Terminal
 
 ### [Alacritty](https://github.com/alacritty/alacritty)
