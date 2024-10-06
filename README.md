@@ -2,9 +2,9 @@
 
 My personal stack and configurations for various development (and adjacent) tools I use.
 
-[!NOTE]
-
-This repository is no longer maintained, and has been replaced with [Lorech/dotfiles](https://github.com/Lorech/dotfiles)
+> [!NOTE]
+>
+> This repository is no longer maintained. For my new configurations, see [Lorech/dotfiles](https://github.com/Lorech/dotfiles).
 
 ## Terminal
 
